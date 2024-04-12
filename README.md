@@ -2,7 +2,8 @@ Calcuator using keypad 4*4 ,LCD and ATMEGA 32 microcontroller
 
 
 
-Rows pins of keypad are connected to PORTB(pin 4,5,6,7) with intial state input pulled up
+Rows pins of keypad are connected to PORTB(pin 4,5,6,7) with intial state input pulled up ,
+
 columns pins of keypad are connected to PORTD(pin 2,3,4,5) with intial state output high
 
 

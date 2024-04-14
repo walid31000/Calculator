@@ -1,7 +1,7 @@
 /*
 
  * main.c
- *
+ *calculator project using LCD and Keypad 4*4
  *  Created on: 5 Apr 2024
  *      Author: walid
  */
@@ -45,7 +45,7 @@ void main(void)
 			{
 
 				if(flag==0)
-				{
+				{   /*Clear the screen and set the cursor for the first time*/
 					CLCD_voidGoToXY(0,0);
 					CLCD_u8SendString("          ");
 					CLCD_voidGoToXY(0,0);
@@ -100,7 +100,7 @@ void main(void)
 
 
 			}
-			if(Local_u8Key=='c')
+			if(Local_u8Key=='c')//press c to reinitialise the calculator
 			{
 				CLCD_voidSendCommand(1);//clear screen
 				Local_s32Num1=0;//reset number1
